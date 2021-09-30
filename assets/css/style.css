@@ -4,6 +4,9 @@
   box-sizing: border-box;
 }
 
+body {
+  background: #fafafa !important;
+}
 /* body::before {
     content: '';
     display: block;
@@ -57,7 +60,7 @@ button.btn.btn-primary.btn-lg {
   background: none;
   border: 1px solid #fff;
   border-radius: 50px;
-  padding: 20px 30px;
+  padding: 20px 40px;
 }
 
 h1 {
@@ -68,11 +71,97 @@ h1 {
 }
 
 p.lead.my-5 {
-  width: 380px;
   font-size: 1.6rem;
+  font-weight: 400;
 }
 
 /* .d-sm-flex.align-items-center.justify-content-between {
     padding-top: 100px;
 } */
 
+.card {
+  border: none;
+}
+
+i.bi.bi-people {
+  color: #139fef;
+  font-size: 2.4rem;
+}
+
+h3.card-title.mb-3.title-number {
+  line-height: 1.6;
+  font-size: 2.4rem;
+  font-weight: 700;
+  color: #252b42;
+}
+
+p.card-text.description-text {
+  color: #7e7e7e;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+p span {
+  display: block;
+}
+
+h2 span {
+  display: block;
+}
+
+p.lead.text-center.mb-5 {
+  font-size: 1.2rem;
+  color: #b4b4b4;
+  font-weight: 500;
+}
+
+h2.h1.fw-bold.text-center {
+  color: #252b42;
+}
+
+.card.mb-3 {
+  max-width: 630px;
+}
+
+.card.mb-3 {
+  padding-left: 0;
+}
+
+p.card-text {
+  margin-bottom: 0;
+}
+
+.g-1,
+.gx-1 {
+  --bs-gutter-x: 0.15rem;
+}
+
+i.bi.bi-circle-square.fs-2 {
+  line-height: 0;
+  color: #23a6f0;
+}
+
+i.bi.bi-chat-square-quote.fs-2 {
+  line-height: 0;
+  color: #23a6f0;
+}
+
+p.lead.mb-5.fw-normal {
+  color: #b4b4b4;
+}
+
+p.fs-6.fw-bolder {
+  color: #b4b4b4;
+}
+
+h3.lh-base.fs-2.fw-bold {
+  color: #20273e;
+}
+
+h4.fw-bold {
+  color: #20273e;
+}
+
+h4 span {
+  display: block;
+}

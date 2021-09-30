@@ -18,6 +18,30 @@
     font-size: 1.4rem;
     font-weight: 500;
   }
+
+  h2 span {
+    display: contents;
+  }
+
+  p span {
+    display: contents;
+  }
+
+  h3.lh-base.fs-2.fw-bold {
+    text-align: center;
+  }
+
+  p.lead.mb-5.fw-normal {
+    text-align: center;
+  }
+
+  .col-md-3 {
+    text-align: center;
+  }
+
+  .card-body {
+    text-align: center;
+}
 }
 /* Tablet: width >=740 and width < 1024 */
 @media only screen and (min-width: 740px) and (max-width: 1023px) {
@@ -31,5 +55,22 @@
     width: auto;
     font-size: 1.4rem;
     font-weight: 400;
+  }
+
+  .row.mt-4.g-4 {
+    gap: 10px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  p span {
+    display: contents;
+  }
+}
+
+/* PC: width >= 1024 */
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .row.g-1.justify-content-between {
+    justify-content: center !important;
   }
 }
