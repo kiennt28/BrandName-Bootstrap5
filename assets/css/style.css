@@ -60,7 +60,7 @@ button.btn.btn-primary.btn-lg {
   background: none;
   border: 1px solid #fff;
   border-radius: 50px;
-  padding: 20px 40px;
+  padding: 20px 38px;
 }
 
 h1 {
@@ -164,4 +164,71 @@ h4.fw-bold {
 
 h4 span {
   display: block;
+}
+
+span.card-title {
+  font-size: 3rem;
+  font-weight: 500;
+  color: #23a6f0;
+}
+
+span.card-text.fs-3 {
+  line-height: 1;
+}
+
+span.card-text.h3 {
+  margin-bottom: 0;
+}
+
+.price-description {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #7c7c7c;
+}
+
+i.h4.bi.bi-check-circle-fill.me-2 {
+  color: #2dc071;
+}
+
+i.bi.bi-check-circle.me-2.h4 {
+  color: #bdbdbd;
+}
+
+.border-primary {
+  border: 2px solid #7dcaf7 !important;
+  border-radius: 10px;
+  padding: 0;
+}
+
+.btn-primary {
+  background: #23a6f0;
+  border: none;
+  padding: 13px 0;
+  border-radius: 5px;
+}
+
+span.h5.card-text {
+  color: #95c6f3;
+}
+span.h3.fw-bolder.card-text {
+  color: #23a6f0;
+}
+
+section#contact {
+  position: relative;
+}
+
+.contact.bg-white.p-5 {
+  position: absolute;
+  top: 20%;
+  right: 16%;
+  left: 16%;
+}
+
+.space {
+  height: 300px;
+}
+
+.bg-color {
+  color: #24a6f0;
 }
